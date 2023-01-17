@@ -1,0 +1,22 @@
+{
+  "name": "firstreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoriss67/firstreact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoriss67/firstreact/issues"
+  },
+  "homepage": "https://github.com/yoriss67/firstreact#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}

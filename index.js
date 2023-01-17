@@ -1,3 +1,9 @@
+// import React from "react"
+// // import ReactDOM from "react-dom"
+// import  ReactDOM  from 'react-dom/client';
+
+
+
 const root = document.getElementById('root')
 
 ReactDOM.render(<h1>Hello, root!</h1>, root)
@@ -71,6 +77,17 @@ ReactDOM.render(<ul>
         )
     }
 
+    function CustomContent() {
+        const msgStyle = {
+            fontSize: 10,
+            color: 'blue'
+        }
+         return (
+         <p>From https://zenn.dev/web_tips/articles/330b10817b24f2</p>
+         )
+    }
+
+    
     // Afterward, render it below the Navbar (which
     // you can do inside the ReactDOM.render call below)
     
@@ -78,6 +95,7 @@ ReactDOM.render(<ul>
         <div>
             <Navbar />
             <MainContent />
+            <CustomContent />
             
         </div>,
         document.getElementById("root")
@@ -125,6 +143,7 @@ const page =
 </div>
 
 ReactDOM.render(page, root)
+
 
 // CHALLENGE
 const nav =
